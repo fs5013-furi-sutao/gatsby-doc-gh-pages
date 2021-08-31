@@ -87,3 +87,12 @@ yarn deploy
 以下の URL にアクセルしてデプロイが成功したことを確認する
 
 https://アカウント名.github.io/プロジェクト名/
+
+## 補足
+
+gatsby-starter-rocket-docs ではテンプレートファイルに長いファイル名を使っているので、
+`Filename too long` の警告が GitBash に出る場合は、次のコマンドを実行する
+
+```
+git config --system core.longpaths true
+```
