@@ -1,13 +1,14 @@
 module.exports = {
+  pathPrefix: "/how-to-make-gatsby-doc-gh-pages",
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
+    siteTitle: `Gatsby を使ったドキュメントサイトの作成方法`,
+    defaultTitle: `Gatsby を使ったドキュメントサイトの作成方法`,
+    siteTitleShort: `Gatsby を使ったドキュメントサイトの作成方法`,
+    siteDescription: `Gatsby を使って GitHub Pages に Docs サイトを作成する方法`,
+    siteUrl: `https://fs5013-furi-sutao.github.io/how-to-make-gatsby-doc-gh-pages/`,
     siteAuthor: `@rocketseat`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `ja`,
     themeColor: `#8257E6`,
     basePath: `/`,
   },
@@ -44,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://fs5013-furi-sutao.github.io/how-to-make-gatsby-doc-gh-pages/`,
       },
     },
     `gatsby-plugin-offline`,
