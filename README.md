@@ -39,6 +39,7 @@ git config --local user.name アカウント名
 git config --local user.email メールアドレス
 git add .
 git commit -m 'First commit'
+
 git remote add origin https://github.com/アカウント名/プロジェクト名.git
 git push -u origin master
 ```
